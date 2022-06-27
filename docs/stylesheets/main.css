@@ -1,0 +1,130 @@
+body{
+    background-color: #fff;
+    font-family: Helvetica;
+}
+
+content{
+    background-color: rgba(248, 248, 248, 0.852);
+    display: block;
+    border-radius: 1%;
+    margin-top:100px;
+    margin-bottom: 3rem;
+    max-width: 55rem;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+section{
+    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-right: 6%;
+    padding-left: 6%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section > h3 {
+    font-size: 28px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+section > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+section > p {
+    text-align:justify;
+}
+
+section > p > a {
+    text-decoration: none;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+.top {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.box-title{
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: rgba(255, 255, 255, 0.463) 0px 0px 40px;
+}
+
+.box-title-details{
+    text-shadow: rgb(255, 255, 255) 0px 0px 40px;
+    font-size: 11;
+}
+
+.box-title-link{
+    transform: scale(1.4);
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.circle1-outer {
+    background-image: linear-gradient(rgb(27, 107, 245), rgb(198, 124, 245));
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top:-20%;
+    right:15%;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.circle1-inner {
+    background-color: #fff;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top:-20%;
+    right:15%;
+    z-index: -1;
+    border-radius: 50%;
+    transform: scale(0.85);
+}
+.circle2-outer {
+    background-image: linear-gradient(rgb(27, 107, 245), rgb(241, 44, 192));
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top:-25%;
+    right:5%;
+    z-index: -1;
+    border-radius: 50%;
+    transform: scale(0.7);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.circle2-inner {
+    background-color: #fff;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top:-25%;
+    right:5%;
+    z-index: -1;
+    border-radius: 50%;
+    transform: scale(0.55);
+}
+
+iframe{
+    width:100%;
+    height: 500px;
+}
+
+table{
+    background-color: yellow;
+}
